@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*Some browsers automatically add paddings and margins, so this is just to override them.*/
+    font-family: 'Poppins', sans-serif;
+    /*from google fonts*/
+}
+
+.heading{
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(main.jpg);/*gradient overlay*/
+    background-size: cover;
+    /*Completely cover the background psoition area.*/
+    position: relative;
+}   
+
+nav{
+    padding: 2% 6%;  /*top & bottom, and right & left paddings*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img {
+    width: 120px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    /*It will be positioned relative to its ancestor element*/
+ }
+  .navigation{
+      flex: 1; /*Will occupy all space in row*/
+      text-align: right;
+  }
+
+  .navigation ul li{
+      display: inline-block;
+      list-style: none;
+      position: relative;
+      padding: 8px 12px;
+  }
+
+  .navigation ul li::after{ 
+      /*'  ::after  -  pseudo-element that inserts "something" after the CONTENT of the selected elements (it will stay in the element itself)*/
+      content: ""; /*generates a new empty element*/
+      display: block;
+      margin: auto;
+      width: 0%;
+      height: 2px;
+      transition: 0.6s; /*animation transition/it will take 0.6 seconds to completely appear when we hover over it*/
+      background-color:#f44336 ;
+  }/*#B828B2*/
+
+  .navigation ul li:hover::after{
+      width: 100%; /*when we HOVER over the anchors, the previous css statement will be applied.*/
+  }
+
+  .navigation ul li a{ /*styling the anchor tag*/
+      color: white;
+      font-size: 16px;
+      text-decoration: none; /*removes line under anchors (links)*/
+
+  }
+
+  .box{
+      color: white;
+      position: absolute;
+      width: 90%;
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      /*It is characterized by two dimensional vectors/How much the element moves in each direction X & Y*/
+    
+  }
+
+  .box h1{
+      font-size: 63px;
+  }
+
+  .box p{
+      font-size: 14px;
+      margin: 10px 0px 40px; /*10px from top, 0px from left & right, 40px from bottom*/
+      color: white;
+  }
+
+  .morebutton{
+      position: relative;
+      text-decoration: none;
+      display: inline-block;
+      color: white;
+      padding: 12px 34px;
+      font-size: 13px;
+      background: transparent;
+      cursor: pointer; /*the cursor will be displayed when pointing on the element (pointer will indicate a link)*/
+      border: 1px solid white;
+      border-radius: 25px; /*rounded border (25px is the max)*/
+
+  }
+
+  .morebutton:hover{
+      transition: 0.5s;
+      border: 1px solid #816bc1;
+      background-color: #816bc1;
+  }
+
+
+  /*-------SERVICES-------*/
+
+
+  .service{
+      text-align: center;
+      width: 80%;
+      padding-top: 100px;
+      margin: auto;
+  }
+
+  h1{
+      font-weight: 600;
+      font-size: 35px;
+  }
+
+  p{
+      color: black;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 25px;
+      padding: 10px;
+      
+  }
+
+  .row{
+      display: flex; /*all the div elements inside row will be in columns*/
+      margin-top: 5%;
+      justify-content: space-between; /*this will distribute items evenly*/
+  }
+
+  .servicecol{
+      flex-basis: 30%; /*the inital length of the first item*/
+      border-radius: 10px;
+      margin-bottom: 5%;
+      padding: 20px 13px;
+      box-sizing: border-box; /*padding and height will be ALREADY INCLUDED when we specify hight and width*/
+      background: #EFEAFF;
+      transition: 0.5s;
+      /*#fff3f3*/
+  }
+
+  h3{
+      font-weight: 600;
+      margin: 10px 0;
+      text-align: center;
+  }
+
+  .servicecol:hover{
+      box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2); /*A shadow with 20% transaparency*/
+      cursor: pointer;
+  }
+
+  /*-------STAFF-------*/
+
+  .staff{
+      text-align: center;
+      margin: auto;
+      width: 80%;
+      padding-top: 50px;
+  }
+
+  .staffcol{
+      border-radius: 10px;
+      flex-basis: 30%;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 30px;
+      
+  }
+
+  .staffcol img{
+      width: 100%;
+      display: block;
+  }
+
+  .layer{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      /* background-color: transparent; */
+      transition: 0.5s;
+  }
+
+  .layer:hover{
+    background: rgba(239,234,255, 0.7);
+
+  }
+
+  .layer h3{
+      font-weight: 500;
+      font-size: 26px;
+      width: 100%;
+      color: white;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%); /*Center from the x-axis*/
+      position: absolute;
+      opacity: 0;
+      transition: 0.5s;
+
+  }
+
+  .layer:hover h3{
+      opacity: 1;
+      bottom: 50%;
+  }
+
+/*-------FACILITIES-------*/
+
+  .facilities{
+      margin: auto;
+      text-align: center;
+      width: 80%;
+      padding-top: 100px;
+  }
+
+  .facilitiescol{
+      border-radius: 10%;
+      flex-basis: 31%;
+      text-align: left;
+      margin-bottom: 5%;
+  }
+
+  .facilitiescol img{
+      border-radius: 10px;
+      width: 100%;
+
+  }
+
+  .facilitiescol p{
+      padding: 0;
+  }
+
+  .facilitiescol h3{
+      text-align: left;
+      margin-top: 15px;
+      margin-bottom: 15px;
+
+  }
+
+/*-------FACILITIES-------*/
+
+  .testimonials{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding-top: 100px;
+
+  }
+
+  .testimonialscol{
+      border-radius: 10px;
+      flex-basis: 44%;
+      margin-bottom: 5%;
+      text-align: left;
+      padding: 25px;
+      cursor: pointer;
+      display: flex;
+      background: #EFEAFF;
+  }
+
+  .testimonialscol img{
+      border-radius: 50%;
+      margin-left: 5px;
+      margin-right: 30px;
+      height: 40px ;
+  }
+
+  .testimonialscol p{
+      padding: 0;
+  }
+
+  .testimonialscol h3{
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  .testimonialscol .fa{
+      color: #f44336;
+      /*2596be*/
+  }
+
+  /*-------CALL TO ACTION-------*/
+
+  .call{
+    width: 80%;
+    margin: 100px auto;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(action.jpg);/*gradient overlay*/;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
+  }
+
+  .call h1{
+      margin: 40px;  
+      padding: 0;
+      color: white;
+  }
+
+  /*-------CALL TO ACTION-------*/
+
+  .footer{
+      text-align: center;
+       width: 100%;
+       padding: 30px 0;
+  }
+
+  .footer h4{
+      margin-top: 20px;
+      margin-bottom: 25px;
+      font-weight: 600;
+  }
+
+  .icons .fa{
+      margin: 0 13px;
+      padding: 18px 0;
+      cursor: pointer;
+      color: #816bc1;
+  }
+  
+  .icons .fa:hover{
+      color: #4D22CA; 
+    }
+
+  .fa-heart-o{
+      color: #f44336;
+  }
+
+
+  /*-------------------------ABOUT PAGE-------------------------*/
+
+
+  .subheading{
+      background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(aboutc.png);
+      
+      background-size: cover;
+      background-position: bottom -500px right 20px;;
+      height: 50vh;
+      width: 100%;
+      text-align: center;
+      color: white;
+    
+  }
+
+  .subheading h1{
+      margin-top: 100px;
+  }
+
+  .about{
+      padding-top: 80px;
+      padding-bottom: 50px;
+      margin: auto;
+      width: 80%;
+  }
+
+  .aboutcol{
+      padding: 30px 2px;
+      flex-basis: 48%;
+  }
+
+  .aboutcol img{
+      width: 100%;
+  }
+
+  .aboutcol h1{
+      padding-top: 0;
+  }
+
+  .aboutcol p{
+      padding: 15px 0 25px;
+  }
+
+  .purplebutton{
+      border: 1px solid #816bc1;
+      background: transparent;
+      color: #816bc1;
+  }
+
+  .purplebutton:hover{
+      color: white;
+      transition: 0.5s;
+  }
+
+  
+  
