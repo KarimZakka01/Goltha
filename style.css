@@ -395,7 +395,8 @@ nav img {
       transition: 0.5s;
   }
 
-  /*-------------------------SERVICES PAGE-------------------------*/
+  /*-------------------------SERVICES-------------------------*/
+       /*--------------------SIMULATE--------------------*/
 
   .form{
     padding-top: 80px;
@@ -467,13 +468,6 @@ nav img {
 
   /*SERVICE RESULTS:*/
 
-   /* .simulate{
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(formresult.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-      
-  }  */
 
   .simulate{
     margin: 0;
@@ -483,6 +477,14 @@ nav img {
     background-attachment: fixed;
     background-size: cover;
   }
+
+  /* .simulationlogo{
+    height: 100px;
+    width: 130px;
+    margin-left: 45%;
+   
+    
+} */
   
   .containers{ 
     position: relative; /*the element is positioned relative to its normal position*/
@@ -601,8 +603,63 @@ nav img {
   .containers .boxes:nth-child(3){
     background: #FFCAD1;
   }
+
+/*-------------------------SERVICES-------------------------*/
+      /*--------------------COLLECT--------------------*/
+
+
+  .datarow{
+    /*all the div elements inside row will be in columns*/
+    margin-top: 5%;
+    justify-content: space-between; /*this will distribute items evenly*/
+    }
   
+    
+  .datacol{
+    border-radius: 10px;
+    flex-basis: 44%;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    background: #EFEAFF;
+    /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url(aub.png);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right bottom; */
+
+    }
+    
+    
+  .datacol p{
+    padding: 0;
+    font-weight: bold;
+    }
+    
+  .datacol h3{
+    text-align: left;
+    margin-top: 15px;
+    }
+
+  .datacol a:link{
+    color: #000000;
+    text-decoration: none;
+    }
+
+  .datacol a:visited{
+    color: purple;
+    text-decoration: none;
+  }
+
+  .datacol a:hover{
+    color: blue;
+    text-decoration: none;
+  }
+    
   
+    
+      
   
 
 

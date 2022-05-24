@@ -17,11 +17,12 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <!--Got the font from google fonts-->
 
 <link rel="stylesheet" href="https:/stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--This is a cdn (content delivery network) for font awesome.
-    We are uing font awesome to get access to icons to use in @media css-->
+<!--This is a cdn (content delivery network) for font awesome.-->
 
 
 <body>
+    <?php include "connection.php";
+    ?>
 
     <section class = "subheading">
         <nav>
@@ -77,7 +78,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
     </section>
     
-    <!-------SERVICES------->
+    <!-------SIMULATE------->
 
     <section class="form">
         <form action="simulation.php" method="post">
@@ -128,15 +129,80 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
                 </label>
             </div>
             <input type="submit">
-        </form>
-            
-
-            
-            
-               
-            
+        </form>      
         
     </section>
+
+     <!-------COLLECT------->
+
+     <section class="testimonials">
+        <h1>COLLECT your data</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+     <?php
+
+$DBConnect = mysqli_connect("localhost","root",""); //Connection to the DBMS.
+$DBSelect = @mysqli_select_db($DBConnect,"goltha"); //Connection to the DB.
+
+$query = "SELECT * FROM universities"; //Create a query.
+
+$result = mysqli_query($DBConnect,$query) or die(mysqli_error($DBConnect));
+/*Executed the query and stored it in a variable called result.*/
+/*query() / mysqli_query() function performs a query against a database.
+  Variable $result is an array. Usually a query returns multiple rows. These rows will be stored in an array called result.*/
+  echo ' <div class="datarow">';
+while($row = mysqli_fetch_array($result)){
+    
+    echo '<div class="datacol">';
+    echo '<div>';
+    echo "<h3>". $row['university'] ."</h3>";
+    echo "<br/>";
+    
+    // if(strlen($row['description']) > 200):
+    //     $stringCut = substr($row['description'],0,200);
+    //     $endPoint = strrpos($stringCut, ' ');
+    //     $row['description'] = $endPoint?substr($stringCut,0,$endPoint):substr($stringCut,0);
+    //     $row['description'].= '...<a href="services.php">Read more</a>'; 
+    // endif;
+    echo "<p>". $row['description'] ."</p>";
+    echo "<br/>";
+
+    echo "<p>Location: ". $row['location'] ."</p>";
+    echo "<br/>";
+
+    echo "<p>Average Tuition Per Semester: ". $row['average_tuition_per_semester'] ."</p>";
+    echo "<br/>";
+
+    echo "<p>Average Price Per Credit: ". $row['average_price_per_credit'] ."</p>";
+    echo "<br/>";
+
+    echo '<p>Email: <a href="mailto:' . $row['email'] . '">' . $row['email'] . '</a></p>';
+    echo "<br/>";
+
+    
+    echo "<p>Phone: ". $row['phone'] ."</p>"; 
+    echo "<br/>"; 
+
+    echo '<p>For more information, click on the following link:&nbsp;&nbsp;<a href="' . $row['link'] . '">' . $row['link'] . '</a></p>';
+    echo '</div>';
+    echo '</div>';
+    echo "<br/>";
+    echo "<br/>";
+}
+
+echo '</div>';
+
+/*While loop that will iterate through all of the values in the array.
+  The fetch_array() / mysqli_fetch_array() function fetches a result row as an associative array, a numeric array, or both.
+  Result is an associative array. Position is a key and the value is its value. Age is a key and the value is its value.*/ 
+
+
+
+?>
+</section>
+    
+
+
+
 
 <!-------FOOTER-------> 
 <section class="footer">

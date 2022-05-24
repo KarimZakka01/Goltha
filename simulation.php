@@ -20,7 +20,7 @@
     </head>
 
     <body class= "simulate">
-        
+    <!-- <a href="index.html"><img class="simulationlogo" src="golthalogo.svg" alt="This is the logo"></a> -->
       
     
     <?php
@@ -28,6 +28,21 @@
 
         $Eleventype =$_POST['Eleven'];
         $Twelvetype =$_POST['Twelve'];
+
+        $Medicine = "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Fugiat quod fugit eveniet eius debitis, similique veniam
+        delectus ullam neque magni! Suscipit, quo nam optio repellendus.</p>";
+
+        $Business = '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Fugiat quod fugit eveniet eius debitis, similique veniam
+        delectus ullam neque magni! Suscipit, quo nam optio repellendus
+        voluptate fuga unde non doloremque.</p>';
+
+        $Arts = '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Fugiat quod fugit eveniet eius debitis, similique veniam
+        delectus ullam neque magni! Suscipit, quo nam optio repellendus
+        voluptate fuga unde non doloremque.</p>'; 
+
         echo '<div class="containers">';
        if($Eleventype == "science"){
 
@@ -40,9 +55,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Medicine</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus.</p>';
+                echo $Medicine;
                 echo '</div>';
                 echo '</div>';
 
@@ -52,10 +65,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Business</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                voluptate fuga unde non doloremque.</p>';
+                echo $Business;
                 echo '</div>';
                 echo '</div>';
 
@@ -65,10 +75,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Arts</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                voluptate fuga unde non doloremque.</p>';
+                echo $Arts;
                 echo '</div>';
                 echo '</div>';
         
@@ -79,9 +86,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Medicine</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus.</p>';
+                echo $Medicine;
                 echo '</div>';
                 echo '</div>';
 
@@ -91,10 +96,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Business</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                voluptate fuga unde non doloremque.</p>';
+                echo $Business;
                 echo '</div>';
                 echo '</div>';
 
@@ -104,10 +106,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Arts</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                voluptate fuga unde non doloremque.</p>';
+                echo $Arts;
                 echo '</div>';
                 echo '</div>';
 
@@ -120,9 +119,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Medicine</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus.</p>';
+                echo $Medicine;
                 echo '</div>';
                 echo '</div>';
 
@@ -132,10 +129,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Business</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                voluptate fuga unde non doloremque.</p>';
+                echo $Business;
                 echo '</div>';
                 echo '</div>';
 
@@ -145,10 +139,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Arts</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                voluptate fuga unde non doloremque.</p>';
+                echo $Arts;
                 echo '</div>';
                 echo '</div>';
                 echo '</div>';
@@ -160,9 +151,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Medicine</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus.</p>';
+                echo $Medicine;
                 echo '</div>';
                 echo '</div>';
 
@@ -172,10 +161,7 @@
                 echo '</div>';
                 echo '<div class="contents">';
                 echo '<h3>School of Business</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                voluptate fuga unde non doloremque.</p>';
+                echo $Business;
                 echo '</div>';
                 echo '</div>';
 
@@ -184,11 +170,7 @@
                 echo '<i class="fa fa-paint-brush" aria-hidden="true"></i>';
                 echo '</div>';
                 echo '<div class="contents">';
-                echo '<h3>School of Arts</h3>';
-                echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Fugiat quod fugit eveniet eius debitis, similique veniam
-                delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                voluptate fuga unde non doloremque.</p>';
+                echo $Arts;
                 echo '</div>';
                 echo '</div>';
         
@@ -203,9 +185,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Medicine</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus.</p>';
+                    echo$Medicine;
                     echo '</div>';
                     echo '</div>';
 
@@ -215,10 +195,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Business</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                    voluptate fuga unde non doloremque.</p>';
+                    echo $Business;
                     echo '</div>';
                     echo '</div>';
 
@@ -228,10 +205,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Arts</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                    voluptate fuga unde non doloremque.</p>';
+                    echo $Arts;
                     echo '</div>';
                     echo '</div>';
              
@@ -242,9 +216,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Medicine</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus.</p>';
+                    echo $Medicine;
                     echo '</div>';
                     echo '</div>';
     
@@ -254,10 +226,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Business</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                    voluptate fuga unde non doloremque.</p>';
+                    echo $Business;
                     echo '</div>';
                     echo '</div>';
     
@@ -267,10 +236,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Arts</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                    voluptate fuga unde non doloremque.</p>';
+                    echo $Arts;
                     echo '</div>';
                     echo '</div>';
      
@@ -283,9 +249,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Medicine</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus.</p>';
+                    echo $Medicine;
                     echo '</div>';
                     echo '</div>';
     
@@ -295,10 +259,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Business</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                    voluptate fuga unde non doloremque.</p>';
+                    echo $Business;
                     echo '</div>';
                     echo '</div>';
     
@@ -308,10 +269,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Arts</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                    voluptate fuga unde non doloremque.</p>';
+                    echo $Arts;
                     echo '</div>';
                     echo '</div>';
              
@@ -322,9 +280,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Medicine</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus.</p>';
+                    echo $Medicine;
                     echo '</div>';
                     echo '</div>';
     
@@ -334,10 +290,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Business</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                    voluptate fuga unde non doloremque.</p>';
+                    echo $Business;
                     echo '</div>';
                     echo '</div>';
     
@@ -347,10 +300,7 @@
                     echo '</div>';
                     echo '<div class="contents">';
                     echo '<h3>School of Arts</h3>';
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat quod fugit eveniet eius debitis, similique veniam
-                    delectus ullam neque magni! Suscipit, quo nam optio repellendus
-                    voluptate fuga unde non doloremque.</p>';
+                    echo $Arts;
                     echo '</div>';
                     echo '</div>';
              
