@@ -1,3 +1,9 @@
+<?php
+include "connection.php";
+
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,11 +34,12 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
             <div class = "navigation">
                 
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
                     <li><a href="services.php">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="">Register</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="register.php">Register</a></li>
+                    <li><a href="logout.php">Logout</a></li>
                     
                     
                 </ul>
@@ -47,7 +54,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
                 Assum enda rem, explicabo labore et aspernatur nesciunt alias<br>
                 esse repellendus facere sit accusamus sapiente cum, odit vitae illo
                 expedita odio ea soluta?</p>
-            <a href="" class="morebutton">Click Here to Find Out More</a>
+            <a href="about.php" class="morebutton">Click Here to Find Out More</a>
 
         </div>
 
@@ -188,7 +195,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <!-------CALL TO ACTION------->
 <section class="call">
     <h1>Simulate, Collect, & Consult with Goltha to<br>Become the Best Version of Yourselves</h1>
-    <a href="" class="morebutton">CONTACT US</a>
+    <a href="contact.php" class="morebutton">CONTACT US</a>
 
 </section>
 

@@ -1,3 +1,10 @@
+<?php
+include "connection.php";
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,11 +35,12 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
             <div class = "navigation">
                 
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
                     <li><a href="services.php">Services</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Register</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="register.php">Register</a></li>
+                    <li><a href="logout.php">Logout</a></li>
                 </ul>
             </div>
           

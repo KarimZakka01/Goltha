@@ -395,6 +395,11 @@ nav img {
       transition: 0.5s;
   }
 
+
+
+  
+  
+
   /*-------------------------SERVICES-------------------------*/
        /*--------------------SIMULATE--------------------*/
 
@@ -465,6 +470,29 @@ nav img {
 
 
   }
+
+
+  .simbutton{
+    margin-left: 539px;
+    margin-top: 30px;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    color: #816bc1;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer; /*the cursor will be displayed when pointing on the element (pointer will indicate a link)*/
+    border: 1px solid #816bc1;
+    /*border-radius: 25px; rounded border (25px is the max)*/
+
+}
+
+.simbutton:hover{
+    transition: 0.5s;
+    background-color: #816bc1;
+}
+
 
   /*SERVICE RESULTS:*/
 
@@ -719,22 +747,102 @@ nav img {
 /*-------------------------REGISTER PAGE-------------------------*/
 
 
+.regpage{
+  background-color: #D7CAFB;
+}
+
+.mainbox{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  padding-bottom: 60px;
+
+}
+
+.mainbox .content{
+  text-align: center;
+}
 
 
-    
+
+
+.formbox{
+  display: flex;
+  min-height: 100vh;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  padding-bottom: 60px;
+  background: #D7CAFB;
   
-    
-      
+}
+
+.formbox form{
+  width: 500px;
+  padding:20px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  background: #fff;
+  border-radius: 15px;
   
+}
+
+.formbox form h3{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color:#333;
+}
+
+.formbox form input, .formbox form select{
+  width: 80%;
+  padding:10px 15px;
+  margin:8px 0;
+  font-size: 17px;
+  border-radius: 5px;
+  background: #eee;
+  
+}
 
 
+.formbox form select option{
+  background: #fff;
+}
 
-
-
-
+.formbox form .formbutton{
+  color:crimson;
+  text-transform: capitalize;
+  background: #fbd0d9;
+  font-size: 20px;
+  cursor: pointer;
   
   
+}
 
-  
+.formbox form .formbutton:hover{
+  color:#fff;
+  background: crimson;
+}
 
+.formbox form p{
+  font-size: 20px;
+  margin-top: 10px;
+  color:#333;
+}
 
+.formbox form p a{
+  color:crimson;
+}
+
+.formbox form .errormsg{
+  display: block;
+  background: crimson;
+  color: white;
+  font-size: 20px;
+  margin:10px 0;
+  padding:10px;
+  border-radius: 5px;
+}
