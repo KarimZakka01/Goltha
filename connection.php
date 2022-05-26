@@ -14,7 +14,8 @@
     // Check connection using try and catch.
     try{
         //Here we insert a 4TH PARAMETER because we're connecting to a specific DB.
-        $conn = mysqli_connect($servername, $username, $password, $dbName);
+        $DBConnect = mysqli_connect($servername, $username, $password); //Connection to the DBMS.
+        $DBSelect = @mysqli_select_db($DBConnect, $dbName); //Connection to the DB.
         // echo "connected to the database $dbName";
 
         }catch(Exception $e){

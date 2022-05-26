@@ -33,7 +33,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                     <li><a href="">Register</a></li>
                 </ul>
             </div>
@@ -128,7 +128,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
                     Literature & Humanity  
                 </label>
             </div>
-            <input type="submit">
+            <input class="morebutton purplebutton" type="submit">
         </form>      
         
     </section>
@@ -139,9 +139,10 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <h1>COLLECT your data</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
      <?php
+     
 
-$DBConnect = mysqli_connect("localhost","root",""); //Connection to the DBMS.
-$DBSelect = @mysqli_select_db($DBConnect,"goltha"); //Connection to the DB.
+
+
 
 $query = "SELECT * FROM universities"; //Create a query.
 
