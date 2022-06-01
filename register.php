@@ -93,6 +93,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
            <select name="gender">
               <option value="male">Male</option>
               <option value="female">Female</option>
+              <option value="female">Other</option>
            </select>
            <input type="submit" name="submit" value="Register" class="formbutton">
            <p>Already have an account?&nbsp;<a href="login.php">Login Now</a></p>
