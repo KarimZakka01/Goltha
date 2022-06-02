@@ -13,7 +13,7 @@ session_start();
 
 <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
 <meta charset = "UTF-8">
-<meta http-equiv = "refresh" content = "600">
+<meta http-equiv = "refresh" content = "400">
 
 <link rel = "stylesheet" href = "style.css">
 
@@ -31,7 +31,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
     <section class = "subheading">
         <nav>
-            <a href="index.html"><img src="golthalogo.svg" alt="This is the logo"></a>
+            <a href="index.html"><img src="images/golthalogo.svg" alt="This is the logo"></a>
             <div class = "navigation">
                 
                 <ul>
@@ -58,16 +58,19 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
             <div class="aboutcol">
                 <h1>We Help You Reach Your Full Potential</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ipsum cumque excepturi voluptatem magni tenetur, modi exercitationem
-                    alias, qui neque soluta accusantium perspiciatis vero natus
-                    nobis quisquam sit maxime consequatur nam!
+                    A need for a fully-fledged educational website that assists students in all aspects has always 
+                    been present. We've seen many people struggling with choosing their high school sections that 
+                    are responsible for building a base for college education, struggling with university research, 
+                    and struggling with decision making. That's why "Goltha" was developed. "Goltha" means education 
+                    in elvish langauge (written by J. R. R. Tolkien), that's how much committed we are to your 
+                    educational needs and we will stick by your side through every step of the way.
+
                 </p>
                 <a href="services.php" class="morebutton purplebutton">EXPLORE NOW</a>
             </div>
 
             <div class="aboutcol">
-                <img src="aboutsecond.jpg" alt="">
+                <img src="images/aboutdesc.jpg" alt="">
 
             </div>
 
@@ -81,9 +84,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <!-------FOOTER-------> 
 <section class="footer">
     <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptates,
-        pariatur et quasi odit vel harum libero eius! Exercitationem delectus, labore<br>
-        corrupti fuga doloribus eligendi at quod praesentium iure architecto!</p>
+    <p>Goltha Inc. • Beirut, Lebanon • Main (961) 78-870-922 • Support (961) 03-123-456 </p>
     <div class="socialicons">
         <i class="fa fa-facebook"></i><!--FACEBOOK icon from font awesome-->
         <a href="https://twitter.com/KarimZakka2" target="_blank"><i class="fa fa-twitter"></i></a><!--TWITTER icon from font awesome-->
@@ -91,8 +92,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <a href="https://www.linkedin.com/in/karim-zakka-022a2a1b6/" target="_blank"><i class="fa fa-linkedin"></i></a><!--LINKEDIN icon from font awesome-->
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a><!--YOUTUBE icon from font awesome-->
     </div>
-    <p>Made with <i class="fa fa-heart-o"></i> By Karim Zakka</p>
-
+    <p>Copyright &copy; 2022-20XX Goltha Inc. | All rights reserved | Karim Zakka</p>
 </section>
 
     

@@ -102,10 +102,10 @@
 
                 echo '<div class="boxes">';
                 echo '<div class="icons">';
-                echo '<i class="fa fa-paint-brush" aria-hidden="true"></i>';
+                echo '<i class="fa fa-paw" aria-hidden="true"></i>';
                 echo '</div>';
                 echo '<div class="contents">';
-                echo '<h3>School of Arts</h3>';
+                echo '<h3>School of Vet</h3>';
                 echo $Arts;
                 echo '</div>';
                 echo '</div>';
@@ -115,10 +115,10 @@
             }elseif ($Twelvetype == "se"){
                 echo '<div class="boxes">';
                 echo '<div class="icons">';
-                echo '<i class="fa fa-user-md" aria-hidden="true"></i>';
+                echo '<i class="fa fa-flask" aria-hidden="true"></i>';
                 echo '</div>';
                 echo '<div class="contents">';
-                echo '<h3>School of Medicine</h3>';
+                echo '<h3>School of Sciences</h3>';
                 echo $Medicine;
                 echo '</div>';
                 echo '</div>';

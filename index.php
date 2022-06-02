@@ -11,8 +11,12 @@ session_start();
 <title>Goltha</title>
 
 <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+<!--width = device-width: sets the width of the page to follow the screen-width of the device.
+    initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.-->
 <meta charset = "UTF-8">
-<meta http-equiv = "refresh" content = "600">
+<!--Specifies the character encoding for the HTML document (UTF-8 is the character set that is always encouraged for websites)-->
+<meta http-equiv = "refresh" content = "400">
+<!--Refresh page every 400 seconds-->
 
 <link rel = "stylesheet" href = "style.css">
 
