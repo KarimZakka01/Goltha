@@ -10,7 +10,7 @@
     width: 100%;
     min-height: 100vh;
     background-position: center;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(main.jpg);/*gradient overlay*/
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/main.jpg);/*gradient overlay*/
     background-size: cover;
     /*Completely cover the background psoition area.*/
     position: relative;
@@ -297,7 +297,7 @@ nav img {
   .call{
     width: 80%;
     margin: 100px auto;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(action.jpg);/*gradient overlay*/;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/action.jpg);/*gradient overlay*/;
     background-position: center;
     text-align: center;
     background-size: cover;
@@ -345,10 +345,10 @@ nav img {
 
 
   .subheading{
-      background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(aboutc.png);
+      background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/about.png);
       
       background-size: cover;
-      background-position: bottom -500px right 20px;;
+      background-position: bottom -500px right 20px;
       height: 50vh;
       width: 100%;
       text-align: center;
@@ -500,7 +500,7 @@ nav img {
   .simulate{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(formresult.png);/*gradient overlay*/
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/formresult.png);/*gradient overlay*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

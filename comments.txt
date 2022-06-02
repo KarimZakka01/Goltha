@@ -1,9 +1,0 @@
-            <!--Title of document-->
-           
-            <!-- content = width=device-width: webpage will be proportional to the width of the device.
-                 initial-scale = 1.0: initial zoom level when the webpage is first loaded.-->
-
-            <!--Character set used in the webpage. In UTF-8, each character is represented by 1 to 4 bytes. 
-                (another example: ASCII).-->
-
-             <!--How much till the webpage refreshes-->
