@@ -213,7 +213,7 @@
                 <h1>';
 
 
-                    echo '<div class="boxes">';
+                echo '<div class="boxes">';
                 echo '<div class="icons">';
                 echo $Engineeringlogo;
                 echo '</div>';
