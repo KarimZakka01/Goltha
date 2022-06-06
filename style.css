@@ -107,6 +107,11 @@ nav img {
       background-color: #816bc1;
   }
 
+  nav .fa{ /*DO NOT display the icons (when the device is standard/more than 700px)*/
+    display: none;
+}
+
+
 
   /*-------SERVICES-------*/
 
@@ -847,3 +852,56 @@ nav img {
   padding:10px;
   border-radius: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+/*-------------------------MEDIA QUERIES-------------------------*/
+
+nav .fa{
+  display: none;
+}
+
+@media(max-width: 700px){/*Any device that is less than or equal 700px will have this code statement applied to it*/
+  .box h1{
+      font-size: 21px;
+  }
+  .navigation ul li{/*Each li/anchor will take up the whole line*/
+      display: block;
+  }
+  
+  .navigation{
+      position: absolute;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      background: #816bc1;
+      z-index: 2;
+      /*If two elements overlap, the element that comes LAST in the markup is going to overlap when elements begin stacking.
+        The z-index property allows us to overrule this. So if we give the element a HIGHER z-index, it will overlap that previous element. */
+      height: 100vh;
+      transition: 1s;
+  }
+  nav .fa{ /*to display the icons (when device is less than or equal 700px)*/
+      display: block;
+      margin: 10px;
+      font-size: 21px;
+      cursor: pointer;
+      color: #fff;
+
+  }
+  .navigation ul{
+      padding: 25px;
+  } 
+    
+    
+}
+
+  
