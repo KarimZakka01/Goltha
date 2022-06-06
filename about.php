@@ -30,10 +30,10 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <body>
 
     <section class = "subheading">
-        <nav>
+    <nav>
             <a href="index.html"><img src="images/golthalogo.svg" alt="This is the logo"></a>
-            <div class = "navigation">
-                
+            <div class = "navigation" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
@@ -41,11 +41,13 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="register.php">Register</a></li>
                     <li><a href="logout.php">Logout</a></li>
+                    
+                    
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> <!--menu icon from font awesome-->
           
         </nav>
-
 
         <h1>About Us</h1>
 
@@ -97,7 +99,18 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
     
 
+<script>
+    var navLinks = document.getElementById("navLinks");
 
+    function showMenu(){
+        navLinks.style.right = "0";
     
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    
+    }
+
+</script>
 </body>
 </html>

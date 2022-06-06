@@ -35,10 +35,9 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     style="background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/services.jpg);
     background-position: bottom -150px right 20px;">
         <nav>
-            <a href="index.html" ><img src="images/golthalogo.svg" alt="This is the logo"></a>
-            
-            <div class = "navigation">
-                
+            <a href="index.html"><img src="images/golthalogo.svg" alt="This is the logo"></a>
+            <div class = "navigation" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
@@ -46,9 +45,11 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="register.php">Register</a></li>
                     <li><a href="logout.php">Logout</a></li>
+                    
+                    
                 </ul>
             </div>
-            <div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> <!--menu icon from font awesome-->
           
         </nav>
 
@@ -244,6 +245,19 @@ echo '</div>';
     
 
 
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    
+    }
+
+</script>
     
 </body>
 </html>

@@ -246,7 +246,6 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     
     }
 
-
 </script>
     
 </body>
