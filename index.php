@@ -5,7 +5,7 @@ session_start();
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
 <title>Goltha</title>
@@ -15,7 +15,7 @@ session_start();
     initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.-->
 <meta charset = "UTF-8">
 <!--Specifies the character encoding for the HTML document (UTF-8 is the character set that is always encouraged for websites)-->
-<meta http-equiv = "refresh" content = "400">
+<!-- <meta http-equiv = "refresh" content = "400"> -->
 <!--Refresh page every 400 seconds-->
 
 <link rel = "stylesheet" href = "style.css">
