@@ -65,33 +65,33 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <div class="row">
 
     <div class="servicecol">
-        <h3>Simulate</h3>
+    <a href="services.php#simulate-jump"><h3>Simulate</h3>
         <p>Our simulation form offers you the chance to draw out what career
            path is the most suitable for you according to what section you join in the 11th grade
            and the 12th grade. Whether it was G11 Scientific & G12 Life & Science, or even G11 Literature and G12 General Sciences,
            All your options will be presented on a golden plate and your journey to success will begin.
-        </p>
+        </p></a>
     </div>
 
     <div class="servicecol">
-        <h3>Collect</h3>
+    <a href="services.php#collect-jump"><h3>Collect</h3>
         <p>We know it can be a bit overwhelming to start your college research.
             From looking for the precise tutuion fees, to finding the suitable office
             to contact in the university, to even figuring out what major a specific 
             university shines in... That's why we made a summary of data of each university in Lebanon
-            for you to collect. All information in the palm of yourn hands within seconds!</p>
+            for you to collect. All information in the palm of yourn hands within seconds!
+        </p></a>
     </div>
 
     <div class="servicecol">
-        <h3>Consult</h3>
+    <a href="contact.php#consult-jump"><h3>Consult</h3>
         <p>Still can't figure out what it is you want to do and what path you're going
             to take? No worries, just go right ahead and send us a message through 
             the contact form and we'll get back to you before you can pronounce Goltha!
             After we gather some basic information from you, a consultant from our offices
             will reach out, listen to everything you have to say, and help you figure out 
-            who and what you want to do and be.
-            
-        </p>
+            who and what you want to do and be. 
+        </p></a>
     </div>
 </div>
     
@@ -102,7 +102,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
     <section class="form">
         <form action="simulation.php" method="post">
-            <h1>SIMULATE your choices</h1>
+        <a id="simulate-jump"><h1>SIMULATE your choices</h1></a>
             <h3>Choose your grade 11 section:</h3>
             <div class="spacea">
                 <label for="science" class="radio">
@@ -156,7 +156,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
      <!-------COLLECT------->
 
      <section class="testimonials">
-        <h1>COLLECT your data</h1>
+     <a id="collect-jump"><h1>COLLECT your data</h1></a>
         <p>Like we said, in the palm of your hands.</p>
      <?php
      

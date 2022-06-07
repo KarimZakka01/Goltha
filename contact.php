@@ -50,7 +50,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         </nav>
 
 
-        <h1>Contact Us</h1>
+        <a id="simulate-jump"><h1>Contact Us</h1></a>
 
     </section>
 
