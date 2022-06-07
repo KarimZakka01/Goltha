@@ -112,8 +112,76 @@ nav img {
 }
 
 
+@media(max-width: 700px){/*Any device that is less than or equal 700px will have this code statement applied to it*/
+  .box h1{
+      font-size: 21px;
+  }
+  .navigation ul li{/*Each li/anchor will take up the whole line*/
+      display: block;
+  }
+  
+  .navigation{
+      position: absolute;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      background: #816bc1;
+      z-index: 2;
+      /*If two elements overlap, the element that comes LAST in the markup is going to overlap when elements begin stacking.
+        The z-index property allows us to overrule this. So if we give the element a HIGHER z-index, it will overlap that previous element. */
+      height: 100vh;
+      transition: 1s;
+  }
+  nav .fa{ /*to display the icons (when device is less than or equal 700px)*/
+      display: block;
+      margin: 10px;
+      font-size: 21px;
+      cursor: pointer;
+      color: #fff;
+
+  }
+  .navigation ul{
+      padding: 25px;
+  }
+    
+    
+}
+
+
 
   /*-------SERVICES-------*/
+
+
+  .services-subheading{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/services.jpg);
+    background-position: bottom -150px right 20px;
+    background-size: cover;
+    
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+  
+  }
+  
+  @media(max-width: 700px){/*Any device that is less than or equal 700px will have this code statement applied to it*/
+  .services-subheading{
+    background-position: center center; /*center image vertically and horizontally.*/
+    background-repeat: no-repeat; /*show the image only once.*/
+    background-size: cover; /*resize the image to cover the entire container.*/
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/services.jpg);
+  
+  }
+  
+  
+  
+  }
+  
+  .services-subheading h1{
+    margin-top: 100px;
+  }
 
 
   .service{
@@ -350,7 +418,7 @@ nav img {
   /*-------------------------ABOUT PAGE-------------------------*/
 
 
-  .subheading{
+  .about-subheading{
       background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/about.png);
       
       background-size: cover;
@@ -363,7 +431,26 @@ nav img {
     
   }
 
-  .subheading h1{
+  @media(max-width: 700px){/*Any device that is less than or equal 700px will have this code statement applied to it*/
+    .about-subheading{
+      background-position: center center; /*center image vertically and horizontally.*/
+      background-repeat: no-repeat; /*show the image only once.*/
+      background-size: cover; /*resize the image to cover the entire container.*/
+      background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/about.png);
+
+    }
+
+    .aboutcol img{
+      background-position: center center; /*center image vertically and horizontally.*/
+      background-repeat: no-repeat; /*show the image only once.*/
+      background-size: cover; /*resize the image to cover the entire container.*/
+      margin-top: 400px;
+     
+    }
+    
+  }
+
+  .about-subheading h1{
       margin-top: 100px;
   }
 
@@ -417,6 +504,9 @@ nav img {
     width: 80%;
 
  }
+
+ 
+
  
  .form h1{
    text-align: center;
@@ -696,6 +786,36 @@ nav img {
 /*-------------------------CONTACT US PAGE-------------------------*/
 
 
+.contact-subheading{
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/contact.jpg);
+  background-size: cover;
+  background-position: bottom -250px right 20px;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  
+
+}
+
+@media(max-width: 700px){/*Any device that is less than or equal 700px will have this code statement applied to it*/
+.contact-subheading{
+  background-position: center center; /*center image vertically and horizontally.*/
+  background-repeat: no-repeat; /*show the image only once.*/
+  background-size: cover; /*resize the image to cover the entire container.*/
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/contact.jpg);
+
+}
+
+
+
+}
+
+.contact-subheading h1{
+  margin-top: 100px;
+}
+  
+
 .location{
    margin: auto;
    padding: 80px 0;
@@ -866,45 +986,7 @@ nav img {
 
 /*-------------------------MEDIA QUERIES-------------------------*/
 
-nav .fa{
-  display: none;
-}
 
-@media(max-width: 700px){/*Any device that is less than or equal 700px will have this code statement applied to it*/
-  .box h1{
-      font-size: 21px;
-  }
-  .navigation ul li{/*Each li/anchor will take up the whole line*/
-      display: block;
-  }
-  
-  .navigation{
-      position: absolute;
-      width: 200px;
-      top: 0;
-      right: -200px;
-      text-align: left;
-      background: #816bc1;
-      z-index: 2;
-      /*If two elements overlap, the element that comes LAST in the markup is going to overlap when elements begin stacking.
-        The z-index property allows us to overrule this. So if we give the element a HIGHER z-index, it will overlap that previous element. */
-      height: 100vh;
-      transition: 1s;
-  }
-  nav .fa{ /*to display the icons (when device is less than or equal 700px)*/
-      display: block;
-      margin: 10px;
-      font-size: 21px;
-      cursor: pointer;
-      color: #fff;
-
-  }
-  .navigation ul{
-      padding: 25px;
-  } 
-    
-    
-}
 
 /* .morenav{
   position: inherit;
@@ -933,4 +1015,15 @@ nav .fa{
 
 } */
 
-  
+
+
+
+
+
+
+
+
+
+
+
+

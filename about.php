@@ -29,7 +29,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
 <body>
 
-    <section class = "subheading">
+    <section class = "about-subheading">
     <nav>
             <a href="index.html"><img src="images/golthalogo.svg" alt="This is the logo"></a>
             <div class = "navigation" id="navLinks">

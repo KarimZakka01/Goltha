@@ -29,9 +29,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
 <body>
 
-    <section class = "subheading"
-    style="background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/contact.jpg);
-    background-position: bottom -250px right 20px;">
+    <section class = "contact-subheading">
         <nav>
             <a href="index.html"><img src="images/golthalogo.svg" alt="This is the logo"></a>
             <div class = "navigation" id="navLinks">

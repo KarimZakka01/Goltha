@@ -31,9 +31,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <?php include "connection.php";
     ?>
 
-    <section class = "subheading"
-    style="background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/services.jpg);
-    background-position: bottom -150px right 20px;">
+    <section class = "services-subheading">
         <nav>
             <a href="index.html"><img src="images/golthalogo.svg" alt="This is the logo"></a>
             <div class = "navigation" id="navLinks">
