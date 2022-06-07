@@ -33,7 +33,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
     <section class = "services-subheading">
         <nav>
-            <a href="index.html"><img src="images/golthalogo.svg" alt="This is the logo"></a>
+            <a href="index.php"><img src="images/golthalogo.svg" alt="This is the logo"></a>
             <div class = "navigation" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
