@@ -131,7 +131,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
 
 <!-------FOOTER-------> 
-<section class="footer">
+<section class="reg-footer">
     <h4>About Us</h4>
     <p>Goltha Inc. • Beirut, Lebanon • Main (961) 78-870-922 • Support (961) 03-123-456 </p>
     <div class="socialicons">
@@ -141,7 +141,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <a href="https://www.linkedin.com/in/karim-zakka-022a2a1b6/" target="_blank"><i class="fa fa-linkedin"></i></a><!--LINKEDIN icon from font awesome-->
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a><!--YOUTUBE icon from font awesome-->
     </div>
-    <p>Copyright &copy; 2022-20XX Goltha Inc. | All rights reserved | Karim Zakka</p>
+    <p>Copyright &copy; 2022 Goltha Inc. | All rights reserved | Karim Zakka</p>
 
 </section>
 

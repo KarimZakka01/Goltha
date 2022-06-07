@@ -394,13 +394,13 @@ nav img {
       color: white;
   }
 
-  /*-------CALL TO ACTION-------*/
+  /*-------FOOTER-------*/
 
   .footer{
       text-align: center;
        width: 100%;
        padding: 30px 0;
-       background-color: #efeaff;
+       background-color: #e6f0fe;
   }
 
   .footer h4{
@@ -984,6 +984,18 @@ nav img {
   border-radius: 5px;
 }
 
+.reg-footer{
+  text-align: center;
+   width: 100%;
+   padding: 30px 0;
+   background-color: #d7cafb;
+}
+
+.reg-footer h4{
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
 
 
 
@@ -994,7 +1006,13 @@ nav img {
 
 
 
-/*-------------------------MEDIA QUERIES-------------------------*/
+
+
+
+
+
+
+/*-------------------------DROPDOWN NAVBAR-------------------------*/
 
 
 
