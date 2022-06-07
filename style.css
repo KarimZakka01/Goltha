@@ -359,6 +359,7 @@ nav img {
       width: 100%;
       text-align: center;
       color: white;
+      
     
   }
 
@@ -904,5 +905,32 @@ nav .fa{
     
     
 }
+
+/* .morenav{
+  position: inherit;
+  z-index: 1;
+} */
+
+/* .navigation ul li ul{
+  background: #000033;
+  border-radius:10px;
+  
+ 
+
+}
+.navigation ul li ul li{
+  float: none;
+  display: block;
+  
+}
+
+.navigation ul li ul{
+  display: none;
+}
+
+.navigation ul li:hover ul{
+  display: block;
+
+} */
 
   

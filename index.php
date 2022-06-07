@@ -42,8 +42,12 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
                     <li><a href="about.php">About</a></li>
                     <li><a href="services.php">Services</a></li>
                     <li><a href="contact.php">Contact</a></li>
+                    <!-- <li><a href="#">More</a>
+                    <ul> -->
                     <li><a href="register.php">Register</a></li>
                     <li><a href="logout.php">Logout</a></li>
+                    <!-- </ul>
+                    </li> -->
                     
                     
                 </ul>
