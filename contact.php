@@ -59,7 +59,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
                 <div>
                     <i class="fa fa-phone"></i>
                         <span> <!--div is a block-level element, while <span> is an inline element-->
-                            <h5>+961 78 870 922 </h5>
+                            <h5>+961 78 123 456 </h5>
                             <p>Monday to Saturday, 10:00am to 5:00pm</p>
                         </span>
                 </div>
