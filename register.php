@@ -69,29 +69,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <body class = "regpage">
 
 
-<nav>
-            <a href="index.php"><img src="images/golthalogo.svg" alt="This is the logo"></a>
-            <div class = "navigation" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <!-- <li><a href="#">More</a>
-                    <ul> -->
-                    <li><a href="register.php">Register</a></li>
-                    <li><a href="logout.php">Logout</a></li>
-                    <!-- </ul>
-                    </li> -->
-                    
-                    
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i> <!--menu icon from font awesome-->
-          
-        </nav>
-
+<?php include('header.html'); ?>
 
     <!-------REGISTER CONTENT------->
 <div class="mainbox">
