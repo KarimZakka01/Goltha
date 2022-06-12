@@ -127,6 +127,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
     
 
+<!-------JS FOR TOGGLING MENU-------> 
 <script>
     var navLinks = document.getElementById("navLinks");
 

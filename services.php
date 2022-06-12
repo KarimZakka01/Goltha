@@ -240,9 +240,10 @@ echo '</div>';
 
 </section>
 
-    
+   
 
 
+<!-------JS FOR TOGGLING MENU-------> 
 <script>
     var navLinks = document.getElementById("navLinks");
 
