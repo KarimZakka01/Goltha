@@ -98,27 +98,27 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
     <section class="staff">
         <h1>Meet the Team</h1>
-        <p>It's a team of one currently, but hey! Photos of Adventure Time!</p>
+        <p>Karim, Karam, and Makroum; ready to be of service</p>
 
         <div class="row">
             <div class="staffcol">
-                <img src="images/jake.jpg" alt="">
+                <img src="images/hp.png" alt="">
                 <div class="layer">
-                    <h3>JAKE</h3>
+                    <h3>MAKROUM</h3>
                 </div>  
             </div>
 
             <div class="staffcol">
-                <img src="images/king.jpeg" alt="">
+                <img src="images/business.png" alt="">
                 <div class="layer">
-                    <h3>ICE KING</h3>
+                    <h3>KARIM</h3>
                 </div>
             </div>
 
             <div class="staffcol">
-                <img src="images/finn.jpeg" alt="">
+                <img src="images/beach.png" alt="">
                 <div class="layer">
-                    <h3>FINN</h3>
+                    <h3>KARAM</h3>
                 </div>
             </div>
         </div>
