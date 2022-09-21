@@ -12,7 +12,7 @@
     background-position: center;
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/main.jpg);/*gradient overlay*/
     background-size: cover;
-    /*Completely cover the background psoition area.*/
+    /*Completely cover the background position area.*/
     position: relative;
 }   
 
@@ -332,6 +332,7 @@ nav img {
       margin-bottom: 15px;
 
   }
+
 
 /*-------FACILITIES-------*/
 

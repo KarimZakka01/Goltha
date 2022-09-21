@@ -98,7 +98,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
     <section class="staff">
         <h1>Meet the Team</h1>
-        <p>Karim, Karam, and Makroum; ready to be of service</p>
+        <p>Karim, Karam, and Makroum, ready to be of service</p>
 
         <div class="row">
             <div class="staffcol">
@@ -162,7 +162,7 @@ wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
                     <p>Goltha helped me find my calling. I would not be Gandalf the White
                         if it wasn't for the people at Goltha. They helped me reach my full 
                         wizarding potential! I would definitely recommend it and I might I 
-                        suggest getting in touch with whoever is responsible for project!
+                        suggest getting in touch with whoever is responsible for this project!
                     </p>
                     <h3>Gandalf The Grey</h3>
                     <i class="fa fa-star"></i><!--star (rating) icon from font awesome-->
